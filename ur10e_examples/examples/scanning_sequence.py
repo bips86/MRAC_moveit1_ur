@@ -47,7 +47,7 @@ start_srv_req.rgbd_params.depth_trunc = 0.15
 start_srv_req.rgbd_params.convert_rgb_to_intensity = False
 
 stop_srv_req = StopReconstructionRequest()
-stop_srv_req.mesh_filepath = '/home/v/test.ply'
+stop_srv_req.mesh_filepath = '/home/bipradip/test7.ply'
 
 # define speed and acceleration
 
@@ -58,9 +58,13 @@ move_acc = 0.5
 # scan_vel = 0.05
 # scan_acc = 0.0002
 
-# fast scan
+
 scan_vel = 0.05
-scan_acc = 0.01
+scan_acc = 0.0002
+
+# fast scan
+# scan_vel = 0.05
+# scan_acc = 0.01
 
 # boolean to enable/disable reconstruction
 # for testing purposes
